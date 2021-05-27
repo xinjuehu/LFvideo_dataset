@@ -78,6 +78,6 @@ if __name__ == "__main__":
     video_dir = '.\\dynamic_50\\'
     matrix_frames = '.\\Matrix_frames\\'
     ePI_frames = '.\\EPI_frames\\'
-    dec_VP(frames_num, vP_Frames_dir, video_dir)
-    reshuf(frames_num, vP_Frames_dir, matrix_frames, col_num)
+    # dec_VP(frames_num, vP_Frames_dir, video_dir)
+    # reshuf(frames_num, vP_Frames_dir, matrix_frames, col_num)
     genEPI(frames_num, matrix_frames, ePI_frames, col_num)
